@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- OWL CSS-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+                            <!-- para pegar o link, precione ctrl + espaço-->
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <!-- para copiar e replicar, pressione shift + alt + seta para baixo-->
+
+    <title>GHIBLIX</title>
+</head>
+<body>
+   <header>
+       <div class="container">
+            <h2 class="logo">GHIBLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Filmes</a>
+                <a href="#">Minha lista</a>
+            </nav>
+
+       </div>
+   </header>
+   <main>
+       <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">A VIAGEM DE CHIHIRO</h3>
+                <p class="descricao">Chihiro e seus pais estão se mudando para uma cidade diferente. A caminho da nova casa, o pai decide pegar um atalho. Eles se deparam com uma mesa repleta de comida, embora ninguém esteja por perto. Chihiro sente o perigo, mas seus pais começam a comer. Quando anoitece, eles se transformam em porcos. Agora, apenas Chihiro pode salvá-los</p>
+            
+                <div class="botoes">
+                    <!--<button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>-->
+                    <!-- o role serve para mostrar a função do botão utilizado, no caso-->
+                    <button role="button" class="botao" onclick="javascript: window.open('https://www.imdb.com/title/tt0245429/?ref_=fn_al_tt_1', '_blank')">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>    
+       </div>
+   </main>
+
+       <h3 class="recomendados">Recomendados</h3>
+ 
+
+   <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/howl.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/castelo.jpg" alt="" srcset="">
+
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/gatos.jpg" alt="" srcset="">
+
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/kiki.jpg" alt="" srcset="">
+
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/marnie.jpg" alt="" srcset="">
+
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/ponyo.jpg" alt="" srcset="">
+
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/princesa.jpg" alt="" srcset="">
+
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/totoro.jpg" alt="" srcset="">
+
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/vagalumes.jpg" alt="" srcset="">
+
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/vidas.jpg" alt="" srcset="">
+
+            </div>
+        </div>
+   </div>
+
+   <script src="https://kit.fontawesome.com/f86cb5dd60.js" crossorigin="anonymous"></script>
+   <script src="js/owl/jquery.min.js "></script>
+   <script src="js/owl/owl.carousel.min.js "></script>
+   <script src="js/owl/main.js"></script>
+
+</body>
+</html>
